@@ -1,0 +1,23 @@
+		*{
+ margin : 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body { margin : 20px;
+		color: lightblue;
+		background-color: ghostwhite;}
+
+img { width: 300px;
+		display: block;
+		margin-bottom: 20px;}
+
+
+.lemon{ width: 100px;}
+
+a{color: red;}
+
+
+
+@media screen and (max-width: 704px) {
+}
