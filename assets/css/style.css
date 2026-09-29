@@ -12,8 +12,58 @@ img { width: 300px;
 		display: block;
 		margin-bottom: 20px;}
 
+.first { margin-bottom: 20px;}
+
+.img-container 
+				/*부모 상자 자체의 위치*/
+				{	
+				text-align: center;
+				margin-bottom: 100px;
+				}
+
+.box1-first{
+			text-align: center;}
+
+					
+.img-container img 
+					/* (이미지들 세부 조정) 가로로 이미지 정렬*/
+					{
+					display: inline-block;
+					/*높낮이 수평 정렬*/
+					vertical-align: middle;
+					}
+
+
+			/*가로로 이미지 정렬*/
+.first img {display: inline-block;
+			/*높낮이 수평 정렬*/
+			vertical-align: middle;}
+
+.bird-box {
+			display: inline-block;
+			vertical-align: middle;
+			text-align: center;
+			margin-left: 450px;
+			}
+
+.bird-box p {margin-bottom: 5px;
+			font-size: 8px;
+			font-weight: bold;
+			color: #FFD97A;}
+
+.bird{ width: 100px;}
+
+.box1{width: 100px;}
+
+.box1-first img {width: 100px;
+				display: inline-block;}
 
 .lemon{ width: 100px;}
+
+.source-2{ width: 300px;}
+
+
+
 
 a{color: red;}
 
